@@ -19,6 +19,7 @@ var loadingRender = (function () {
     //->获取需要操作的元素
     var $loading = $('#loading'),
         $progressBox = $loading.find('.progressBox');
+        $btnLoad = $('#btnLoad');
     var step = 0,
         total = ary.length;
 
@@ -32,16 +33,20 @@ var loadingRender = (function () {
                 oImg.src = 'img/' + item;
                 oImg.onload = function () {
                     step++;
-                    $progressBox.css('width', step / total * 50 + '%');
+                    $progressBox.css('width', step / total * 52 + '%');
                     oImg = null;
 
                     //->所有图片都已经加载完毕:关闭LOADING,显示CUBE
                     if (step === total) {
                         if (page === 0) return;
                         window.setTimeout(function () {
-                           $loading.css('display', 'none');
+                           $btnLoad.addClass('btnLoad');
                         }, 2000);
                     }
+                    $btnLoad.click(function () {
+                        $loading.css('display', 'none');
+                    })
+
                 }
             });
         }
