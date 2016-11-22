@@ -15,6 +15,26 @@
         background-position: 0 0;
     }
 }
+@keyframes zoomTip {
+    0%{
+        -webkit-transform:scale(1);
+        transform:scale(1);
+    }
+    100%{
+        -webkit-transform:scale(1.5);
+        transform:scale(1.5);
+    }
+}
+@-webkit-keyframes zoomTip {
+    0%{
+        -webkit-transform:scale(1);
+        transform:scale(1);
+    }
+    100%{
+        -webkit-transform:scale(1.5);
+        transform:scale(1.5);
+    }
+}
 
 @-webkit-keyframes phoneMove {
     0% {
@@ -168,58 +188,7 @@
     }
 }
 
-@-webkit-keyframes page5Move1 {
-    100% {
-        left: 13%;
-        -webkit-transform: rotate(9deg);
-        transform: rotate(9deg);
-    }
-}
 
-@keyframes page5Move1 {
-    100% {
-        opacity: 1;
-        left: 13%;
-        -webkit-transform: rotate(9deg);
-        transform: rotate(9deg);
-    }
-}
-
-@-webkit-keyframes page5Move2 {
-    100% {
-        opacity: 1;
-        left: 10%;
-        -webkit-transform: rotate(-9deg);
-        transform: rotate(-9deg);
-    }
-}
-
-@keyframes page5Move2 {
-    100% {
-        opacity: 1;
-        left: 10%;
-        -webkit-transform: rotate(-9deg);
-        transform: rotate(-9deg);
-    }
-}
-
-@-webkit-keyframes page5Move3 {
-    100% {
-        opacity: 1;
-        left: 17%;
-        -webkit-transform: rotate(9deg);
-        transform: rotate(9deg);
-    }
-}
-
-@keyframes page5Move3 {
-    100% {
-        opacity: 1;
-        left: 17%;
-        -webkit-transform: rotate(9deg);
-        transform: rotate(9deg);
-    }
-}
 
 /*--来自于ANIMATE.CSS--*/
 @-webkit-keyframes bounceIn {
