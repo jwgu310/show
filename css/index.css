@@ -549,7 +549,7 @@ body {
 
 .page6 img {
     position: absolute;
-    bottom:10%;
+    top:4rem;
     left: 50%;
     margin-left: -2.5rem;
     width: 5rem;
