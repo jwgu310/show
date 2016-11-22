@@ -14,7 +14,7 @@
 
 /*--LOADING--*/
 var loadingRender = (function () {
-    var ary = [ "concatPhone.png", "zf_course.png", "zf_course1.png", "zf_course2.png", "zf_course3.png", "zf_course4.png", "zf_course5.png", "zf_course6.png", "cube1.png", "cube2.png", "cube3.png", "cube4.png", "cube5.png", "cube6.png", "cubeBg.png", "zf_cubeTip.png", "zf_outline.png",  "zf_return.png"];
+    var ary = [ "cube1.png", "cube2.png", "cube3.png", "cube4.png", "cube5.png", "cube6.png"];
 
     //->获取需要操作的元素
     var $loading = $('#loading'),
