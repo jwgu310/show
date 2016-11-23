@@ -161,7 +161,7 @@ var swiperRender = (function () {
 
             //->初始化SWIPER实现六个页面之间的切换
             var mySwiper = new Swiper('.swiper-container', {
-                effect: 'coverflow',
+                effect: 'cube',
                 onTransitionEnd: change,
                 onInit: change
             });
