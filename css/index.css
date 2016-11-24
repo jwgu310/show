@@ -229,11 +229,13 @@ body {
 
 .page1 dl dd {
     position: relative;
+    color: #000000;
     padding-left: .64rem;
     border-top: .02rem dashed rgba(255, 255, 255, 0.3);
 }
 
 .page1 dl dd p, .page1 dl dd em {
+    color: #000000;
     position: relative;
     z-index: 1000;
 }
