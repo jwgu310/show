@@ -52,7 +52,7 @@ var loadingRender = (function () {
         }
     }
 })();
-//loadingRender.init();
+loadingRender.init();
 
 /*--CUBE--*/
 
