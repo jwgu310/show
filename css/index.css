@@ -203,6 +203,9 @@ body {
 }
 
 /*基本信息*/
+.page2 {
+    background: #FFFFFF;
+}
 .page1 dl {
     position: absolute;
     top: 50%;
@@ -569,14 +572,9 @@ body {
     animation: zoomIn 1s .5s both;
 }
 
-#page6 .concat li:nth-child(2) {
-    -webkit-animation: zoomIn 1s 1s both;
-    animation: zoomIn 1s 1s both;
-}
-
 #page6 img {
-    -webkit-animation: bounceInUp 1s 0.5s both;
-    animation: bounceInUp 1s 0.5s both;
+    -webkit-animation: bounceInUp 1s 1s both;
+    animation: bounceInUp 1s 1s both;
 }
 
 
